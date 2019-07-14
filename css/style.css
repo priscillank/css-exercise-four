@@ -8,9 +8,14 @@ body {
   font-size: 10px;
 }
 
-div {
+.container {
   width: 100%;
-  float: left;
+}
+
+div {
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
 }
 
 @media screen and (min-width: 575px){
@@ -20,18 +25,20 @@ div {
   }
 }
 
-@media screen and (min-width: 991px){
-   div {
-    margin: 1%;
-    width: 20%;
-  }
-
-.destination {
+nav {
   width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.destination{
+  width: 100%;
+  width:100%;
   max-width: 590px;
   max-height: 350px;
-  padding-bottom: 5%;
 }
+
 
 h1 {
   font: lato;
@@ -40,7 +47,7 @@ h1 {
   font-family: sans-serif;
   font-size: 1.5em;
   letter-spacing: 2px;
-  padding: 5%;
+
 }
 
 h2 {
@@ -51,6 +58,7 @@ h2 {
   padding-top:8%;
   padding-left: 8%;
 }
+
 
 @media screen and (min-width: 575px){
    h2 {
