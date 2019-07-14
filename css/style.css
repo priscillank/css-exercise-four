@@ -20,6 +20,12 @@ div {
   }
 }
 
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 20%;
+  }
+
 .destination {
   width: 100%;
   max-width: 590px;
